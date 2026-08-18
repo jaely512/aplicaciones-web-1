@@ -1,0 +1,53 @@
+/* Centrar todo el contenido en el medio de la pantalla */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo del contenedor */
+.contador-container {
+  text-align: center;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del número */
+#numero {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Estilo de los botones */
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px; /* Bordes redondeados */
+  cursor: pointer;
+  margin: 0 5px;
+  transition: background-color 0.2s;
+}
+
+/* Cambiar color cuando el cursor pasa por encima */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Un color diferente para el botón de disminuir */
+#btn-disminuir {
+  background-color: #f44336;
+}
+
+#btn-disminuir:hover {
+  background-color: #da190b;
+}
